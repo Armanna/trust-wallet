@@ -1,5 +1,6 @@
 # Polygon Blockchain Client
 
+```
 polygon-client/
 ├── app/
 │   ├── __init__.py
@@ -17,6 +18,7 @@ polygon-client/
     ├── main.tf
     ├── variables.tf
     └── outputs.tf
+```
 
 A simple blockchain client for the Polygon network that exposes an API for interacting with the blockchain.
 
