@@ -1,0 +1,24 @@
+HOST: https://polygon-rpc.com/
+  
+>>> Get block number
+
+POST
+{
+  "jsonrpc": "2.0",
+  "method": "eth_blockNumber",
+  "id": 2
+}
+
+>>> Get block by number
+
+POST
+{
+  "jsonrpc": "2.0",
+  "method": "eth_getBlockByNumber",
+  "params": [
+    "0x134e82a",
+    true
+  ],
+  "id": 2
+}
+ to join this co
